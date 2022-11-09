@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Roomtype" value="Double"/>
+    <parameter name="year" value="2020"/>
+    <parameter name="CVV Number" value="688"/>
+    <parameter name="Lastname" value="kkk"/>
+    <parameter name="Billing address" value="mmmkkkkk"/>
+    <parameter name="Credit Card Type" value="VISA"/>
+    <parameter name="Month" value="4"/>
+    <parameter name="password" value="KRISHNA123"/>
+    <parameter name="Number of rooms" value="2 - Two"/>
+    <parameter name="Check out date" value="30-09-2022"/>
+    <parameter name="Adults per room" value="2 - Two"/>
+    <parameter name="First name" value="mmm"/>
+    <parameter name="Check in date" value="29-09-2022"/>
+    <parameter name="Hotel" value="Hotel Creek"/>
+    <parameter name="Children per room" value="2 - Two"/>
+    <parameter name="Credit Card No" value="9876543234567897"/>
+    <parameter name="username" value="krishnamk"/>
+    <parameter name="Location" value="Sydney"/>
+    <classes>
+      <class name="testng.com.Para">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="tco4"/>
+        </methods>
+      </class> <!-- testng.com.Para -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
